@@ -26,6 +26,7 @@ Resolução
 1. Faça uma análise exploratória para avaliar a consistência dos dados e identificar possíveis variáveis que impactam na qualidade do vinho.
 
 a. Como foi a definição da sua estratégia de modelagem?
+
 	1. Examinei todo o dataset
   	2. Encontrei inconsistencias na variavel alcohol
   	3. Exclui do dataset as linhas de inconsistencias
