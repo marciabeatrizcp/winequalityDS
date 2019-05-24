@@ -1,5 +1,6 @@
 O problema
-  O problema se refere aos dados de vinhos portugueses "Vinho Verde", que possuem vvariantes de vinho branco e tinto. Devido a questões de privacidade, apenas variáveis físico-químicas (input) e sensoriais (output) estão disponíveis (por exemplo, não há dados sobre tipo de uva, marca do vinho, preço de venda, etc).
+
+O problema se refere aos dados de vinhos portugueses "Vinho Verde", que possuem vvariantes de vinho branco e tinto. Devido a questões de privacidade, apenas variáveis físico-químicas (input) e sensoriais (output) estão disponíveis (por exemplo, não há dados sobre tipo de uva, marca do vinho, preço de venda, etc).
 
 Objetivo
   Criar um modelo para estimar a qualidade do vinho.
