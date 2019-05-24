@@ -26,24 +26,22 @@ Resolução
 1. Faça uma análise exploratória para avaliar a consistência dos dados e identificar possíveis variáveis que impactam na qualidade do vinho.
 
 a. Como foi a definição da sua estratégia de modelagem?
-
-
-  1. Examinei todo o dataset
-  2. Encontrei inconsistencias na variavel alcohol
-  3. Exclui do dataset as linhas de inconsistencias
-  4. Fiz a correção da variáveis com a qualidade
-  5. Excolhi 4 variáveis com maior correlação
-  6. Escolhi utilizar dois métodos estatísticos para classificação: KNN e Decision Tree
-  7. Fiz um teste com a base toda e percebi que a acuracia para os dois métodos era muito baixa
-  8. Separei a base em dois conjuntos: Vinhos tinto e branco
-  9. Achei a correlação das variaveis para cada conjuntos e identifiquei que eram diferentes, 
-  assim as variaveis X seriam diferentes
-  10. Para os vinhos tintos considerei as variáveis: Alcohol, volatile aciditily, sulphates e citric acid. 
+	1. Examinei todo o dataset
+  	2. Encontrei inconsistencias na variavel alcohol
+  	3. Exclui do dataset as linhas de inconsistencias
+  	4. Fiz a correção da variáveis com a qualidade
+  	5. Excolhi 4 variáveis com maior correlação
+  	6. Escolhi utilizar dois métodos estatísticos para classificação: KNN e Decision Tree
+ 	7. Fiz um teste com a base toda e percebi que a acuracia para os dois métodos era muito baixa
+  	8. Separei a base em dois conjuntos: Vinhos tinto e branco
+  	9. Achei a correlação das variaveis para cada conjuntos e identifiquei que eram diferentes, 
+  	assim as variaveis X seriam diferentes
+  	10. Para os vinhos tintos considerei as variáveis: Alcohol, volatile aciditily, sulphates e citric acid. 
       As demais variáveis eu tirei do modelo
-  11. Para o Método KNN a acurácia foi de: 0.80 e para Decision Tree: 0.42
-  12. Para os vinhos Brancos considerei as variáveis: Alcohol, chlorides e volatile aciditily 
+  	11. Para o Método KNN a acurácia foi de: 0.80 e para Decision Tree: 0.42
+  	12. Para os vinhos Brancos considerei as variáveis: Alcohol, chlorides e volatile aciditily 
       As demais variáveis eu tirei do modelo
-  13. Para o Método KNN a acurácia foi de: 0.77 e para Decision Tree: 0.77
+  	13. Para o Método KNN a acurácia foi de: 0.77 e para Decision Tree: 0.77
 
 b. Como foi definida a função de custo utilizada?
 
