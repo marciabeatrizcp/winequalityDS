@@ -44,14 +44,18 @@ a. Como foi a definição da sua estratégia de modelagem?
   13. Para o Método KNN a acurácia foi de: 0.77 e para Decision Tree: 0.77
 
 b. Como foi definida a função de custo utilizada?
+
 	As 4 variáveis de maior correlaçao com a qualidade
 
 c. Qual foi o critério utilizado na seleção do modelo final?
-	 A divisão em dois conjuntos Vinho Tinto e Branco foi muito significativa.Para os dois conjuntos as variáveis de influência 		foram diferentes. 
+	
+	A divisão em dois conjuntos Vinho Tinto e Branco foi muito significativa.Para os dois conjuntos as variáveis de influência 		foram diferentes. 
    
 d. Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método? 
+	
 	Comparação do variável resposta com o y_pred do modelo.
 	O problema apresentado é de classificação e o KNN foi uma boa escolha
 
 e. Quais evidências você possui de que seu modelo é suficientemente bom?
+	
 	A matriz de confusão e a acurácia acima de 70%
